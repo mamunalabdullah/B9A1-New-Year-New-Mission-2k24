@@ -162,3 +162,31 @@ header{
     color: #FF0000;
     font-size: 48px;
 }
+
+/* holidays area styles  */
+.holidays{
+    width: 85%;
+    margin: 100px auto;
+}
+.holidays-content{}
+.holidays-text{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.holidays-subtitle{
+    color: #070211;
+    font-size: 24px;
+}
+.holidays-title{
+    font-size: 72px;
+    color: #070211;
+}
+.holidays-description{
+    font-size: 20px;
+    color: #07021160;
+    margin: 15px 0;
+}
+.holidays-images{
+    margin: 50px 0;
+}
