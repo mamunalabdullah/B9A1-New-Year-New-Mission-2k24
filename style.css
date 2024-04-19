@@ -56,3 +56,48 @@ header{
     font-size: 48px;
     margin-bottom: 20px;
 }
+
+/* party area styles  */
+.party{
+    width: 85%;
+    margin: 100px auto;
+    height: 100vh;
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.party-content{
+    padding: 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.party-text{
+    width: 60%;
+}
+.party-image{
+    width: 30%;
+}
+.party-title{
+    font-size: 64px;
+    color: #fff;
+}
+.party-description{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.party-btn{
+
+}
+.btn{
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+}
