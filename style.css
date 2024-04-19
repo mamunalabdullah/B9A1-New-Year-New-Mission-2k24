@@ -101,3 +101,64 @@ header{
     border: 1px solid #FF0000;
     border-radius: 5px;
 }
+
+/* place area styles  */
+.place-area{
+    width: 85%;
+    margin: 0 auto;
+    background-image: linear-gradient(#e19d9d, #fff);
+    height: 50vh;
+    border-radius: 15px;
+    position: relative;
+}
+.place-area-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.place, .date, .time{
+    color: #070211;
+    font-size: 32px;
+    margin: 20px 0;
+}
+.color{
+    color: #FF0000;
+}
+
+/* offer area styles  */
+.offer{
+    width: 85%;
+    margin: 150px auto;
+}
+.offer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-left, .offer-image, .offer-right{
+    width: 25%;
+}
+.offer-subtitle{
+    color: #FF0000;
+    font-size: 24px;
+}
+.offer-title{
+    font-size: 48px;
+    color: #070211;
+}
+.offer-description{
+    color: #07021160;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.offer-image{
+    border: 15px solid #FF0000;
+    padding: 15px;
+    border-radius: 50%;
+}
+.year{
+    color: #FF0000;
+    font-size: 48px;
+}
