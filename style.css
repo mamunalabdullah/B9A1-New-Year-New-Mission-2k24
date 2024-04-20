@@ -166,7 +166,7 @@ header{
 /* holidays area styles  */
 .holidays{
     width: 85%;
-    margin: 100px auto;
+    margin: 100px auto; 
 }
 .holidays-content{}
 .holidays-text{
@@ -188,5 +188,51 @@ header{
     margin: 15px 0;
 }
 .holidays-images{
-    margin: 50px 0;
+    margin: 100px 0;
+    position: relative;
+}
+.girl{
+    position: absolute;
+    right: 0;
+}
+.rectangle{
+    position: absolute;
+    top: 433px;
+}
+.box{
+    position: absolute;
+    top: 0;
+}
+.fifty{
+    position: absolute;
+    right: 250px;
+}
+
+/* portfilio area styles  */
+.portfolio{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 55%;
+}
+.portfolio-text{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.portfolio-subtitle{
+    color: #FF0000;
+    font-size: 24px;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    margin: 10px 0;
+}
+.portfolio-description{
+    color: #07021160;
+    font-size: 20px;
+}
+.portfolio-gallary{
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
 }
