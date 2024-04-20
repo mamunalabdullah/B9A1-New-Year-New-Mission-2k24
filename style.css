@@ -232,7 +232,42 @@ header{
     font-size: 20px;
 }
 .portfolio-gallary{
-    border: 1px solid red;
     display: flex;
     gap: 20px;
+}
+
+/* subscribe area styles  */
+.subscribe{
+    width: 85%;
+    margin: 100px auto;
+    padding: 50px 0;
+    background-color: #fff2e2;
+    text-align: center;
+    border-radius: 15px;
+}
+.subscribe img{
+    margin: 0 auto;
+}
+.subscribe-title{
+    color: #070211;
+    font-size: 48px;
+}
+.subscribe-description{
+    color: #07021160;
+    font-size: 20px;
+    margin: 20px 0;
+}
+input[type="email"]{
+    padding: 25px 30px;
+    border: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+input[type="submit"]{
+    padding: 25px 30px;
+    border: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #FF0000;
+    color: #fff;
 }
