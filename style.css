@@ -8,12 +8,20 @@ img{
     height: auto;
     max-width: 100%;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* common styles  */
+header, .party, .place-area, .offer, .holidays, .portfolio, .subscribe{
+    width: 85%;
+    margin: 100px auto;
+}
 
 /* header area styles  */
 header{
-    width: 85%;
     height: 78vh;
-    margin: 50px auto;
     background-image: url('resources/Banner\ Image.png');
     position: relative;
     border-radius: 15px;
@@ -59,8 +67,6 @@ header{
 
 /* party area styles  */
 .party{
-    width: 85%;
-    margin: 100px auto;
     height: 100vh;
     background-image: url('resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -104,8 +110,6 @@ header{
 
 /* place area styles  */
 .place-area{
-    width: 85%;
-    margin: 0 auto;
     background-image: linear-gradient(#e19d9d, #fff);
     height: 50vh;
     border-radius: 15px;
@@ -128,10 +132,6 @@ header{
 }
 
 /* offer area styles  */
-.offer{
-    width: 85%;
-    margin: 150px auto;
-}
 .offer-content{
     display: flex;
     justify-content: space-between;
@@ -164,10 +164,6 @@ header{
 }
 
 /* holidays area styles  */
-.holidays{
-    width: 85%;
-    margin: 100px auto; 
-}
 .holidays-content{}
 .holidays-text{
     width: 75%;
@@ -210,8 +206,6 @@ header{
 
 /* portfilio area styles  */
 .portfolio{
-    width: 85%;
-    margin: 0 auto;
     margin-top: 55%;
 }
 .portfolio-text{
@@ -238,8 +232,6 @@ header{
 
 /* subscribe area styles  */
 .subscribe{
-    width: 85%;
-    margin: 100px auto;
     padding: 50px 0;
     background-color: #fff2e2;
     text-align: center;
@@ -270,4 +262,54 @@ input[type="submit"]{
     border-bottom-right-radius: 30px;
     background-color: #FF0000;
     color: #fff;
+}
+
+/* footer area styles  */
+footer{
+    background-color: #070211;
+}
+.footer-content{
+    padding: 100px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff2e2;
+}
+.footer-text p{
+    color: #fff;
+    font-size: 24px;
+    margin: 10px;
+}
+.footer-text-left, .footer-text-right{
+    width: 40%;
+}
+.footer-text-right, .footer-text-right2{
+    text-align: end;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+    margin: 50px auto;
+    width: 30%;
+}
+.link{
+    margin: 0 auto;
+}
+.footer-text2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-top: 1px solid #fff2e2;
+}
+.footer-text2 p{
+    color: #fff;
+    font-size: 24px;
+}
+.footer-text-left2, .footer-text-right2{
+    width: 40%;
 }
